@@ -12,5 +12,11 @@
   "license": "ISC",
   "engines": {
     "node": "16.x"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
   }
 }
