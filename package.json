@@ -1,8 +1,8 @@
 {
   "name": "advanced-node",
+  "main": "index.js",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc"
@@ -14,9 +14,12 @@
     "node": "16.x"
   },
   "dependencies": {
+    "module-alias": "^2.2.2",
     "rimraf": "^3.0.2"
   },
   "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^18.0.6",
     "typescript": "^4.7.4"
   }
 }
