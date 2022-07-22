@@ -1,4 +1,4 @@
-import { resolve } from "path";
-import { addAlias } from "module-alias";
+import { resolve } from 'path'
+import { addAlias } from 'module-alias'
 
-addAlias("@", "dist");
+addAlias('@', resolve(__dirname, '../..'))
