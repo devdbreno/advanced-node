@@ -1,15 +1,21 @@
 {
   "name": "advanced-node",
   "main": "index.js",
+  "author": "devdbreno <dbrenoti@gmail.com>",
+  "license": "MIT",
   "version": "1.0.0",
-  "description": "",
+  "description": "Essa API faz parte do treinamento do professor Rodrigo Manguinho (Mango) na Udemy",
   "scripts": {
+    "start": "node dist/main",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
     "build": "tsc -p tsconfig.build.json",
     "prebuild": "rimraf dist"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "NodeJS",
+    "TypeScript"
+  ],
   "engines": {
     "node": "16.x"
   },
