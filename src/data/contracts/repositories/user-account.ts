@@ -4,5 +4,15 @@ export interface LoadUserAccountRepository {
 
 export namespace LoadUserAccountRepository {
   export type Params = { email: string }
-  export type Result = string
+  export type Result = undefined
+}
+
+export interface CreateFacebookUserAccountRepository {
+  createFromFacebook:
+  (params: CreateFacebookUserAccountRepository.Params) => Promise<CreateFacebookUserAccountRepository.Result>
+}
+
+export namespace CreateFacebookUserAccountRepository {
+  export type Params = { email: string }
+  export type Result = undefined
 }
